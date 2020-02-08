@@ -4,7 +4,7 @@ import (
 	"testing"
 )
 
-func TestQuantileProcessing(t *testing.T) {
+func TestSizeOf(t *testing.T) {
 	type testCase struct {
 		obj  interface{}
 		size uint64
